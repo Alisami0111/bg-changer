@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  height: 100vh; /* 100% viewport height */
+  width: 100%; /* 100% viewport width */
+}
+
+body, .ali {
+  height: 100vh;
+  width: 100vw;
+}
+
+
+.ali {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   /* Inherit full width from body */
+}
+
+.App {
+  /* Removed unnecessary styles */
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
